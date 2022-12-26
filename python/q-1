@@ -1,0 +1,9 @@
+a=str(input())
+b=str(input())
+count=0
+for i in range(len(a)):
+    if a[i]==b:
+        count+=1
+zz=count/len(a)
+zzz=zz*100
+print(int(zzz))
